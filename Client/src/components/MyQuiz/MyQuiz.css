@@ -1,0 +1,22 @@
+.quiz{
+    text-align: center;
+    
+}
+.quiz >h2{
+    padding-top:30px;
+}
+.answer-section{
+    width: 50%;
+}
+.answer-section >button {
+    padding: 10px;
+    display: inline-flex;
+}
+.result >ul{
+    list-style-type: none;
+    text-align: left;
+}
+.ans{
+    margin-left:30px;
+    display: inline-flex;
+}

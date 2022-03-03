@@ -1,0 +1,51 @@
+.banner {
+    width: auto;
+    height: auto;
+    background-color: rgba(22, 3, 41);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;   
+}
+
+.aiqLogo {
+    width: 100;
+    height: auto;
+}
+
+.buttons {
+    width: auto;
+    height: 100%;
+    margin: 2.5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.login-wrap{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    background-color: rgb(19, 92, 114);
+
+}
+.login-wrap > h3{
+    margin-left: 70px;
+    margin-top:30px;
+}
+
+.login-items{
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 30px;
+padding-bottom: 20px;
+}
+.login-buttons{
+    margin-left:3px !important;
+}
