@@ -400,15 +400,20 @@ function MyQuiz(props) {
 
                                         <If condition = {answer.isCorrect == true}>
 
-                                            <Then><h5>{answer.answerText}</h5></Then>
+                                            <Then><h5 class="correct-ans">{answer.answerText}</h5></Then>
                                             <Else><p>{answer.answerText}</p></Else>
                                         </If>
                                       
                                     </li>
-
+                                    
                                 ))}
+                                {/* <If condition = {myAnswers[index].isCorrect == true}> */}
+                            
+                                <p><b>Your answer is :</b><span class="your-ans">{myAnswers[index]}</span></p>
+                                {/* </If> */}
+                                {/* <Else> */}
 
-                                <p><b>Your answer is :</b> {myAnswers[index]}</p>
+                                {/* </Else> */}
 
                             </li>
                         ))}
